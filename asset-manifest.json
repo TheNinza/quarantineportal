@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/quarantineportal/static/css/main.ed9638e2.chunk.css",
+    "main.js": "/quarantineportal/static/js/main.01ac10f0.chunk.js",
+    "main.js.map": "/quarantineportal/static/js/main.01ac10f0.chunk.js.map",
+    "runtime-main.js": "/quarantineportal/static/js/runtime-main.49ea12f4.js",
+    "runtime-main.js.map": "/quarantineportal/static/js/runtime-main.49ea12f4.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/quarantineportal/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.fa35535d.chunk.js": "/quarantineportal/static/js/2.fa35535d.chunk.js",
+    "static/js/2.fa35535d.chunk.js.map": "/quarantineportal/static/js/2.fa35535d.chunk.js.map",
+    "index.html": "/quarantineportal/index.html",
+    "precache-manifest.6c07a7c3d5900725c976ad9f95b2ae12.js": "/quarantineportal/precache-manifest.6c07a7c3d5900725c976ad9f95b2ae12.js",
+    "service-worker.js": "/quarantineportal/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/quarantineportal/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.ed9638e2.chunk.css.map": "/quarantineportal/static/css/main.ed9638e2.chunk.css.map",
+    "static/js/2.fa35535d.chunk.js.LICENSE.txt": "/quarantineportal/static/js/2.fa35535d.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.49ea12f4.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.fa35535d.chunk.js",
+    "static/css/main.ed9638e2.chunk.css",
+    "static/js/main.01ac10f0.chunk.js"
+  ]
+}
