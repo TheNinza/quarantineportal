@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+
+.particles {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+nav {
+  background: linear-gradient(rgb(97, 104, 110), rgb(77, 81, 85));
+}
+
+.sidebar {
+  height: 89vh;
+  position: relative;
+}
+
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.register-form {
+  width: 60%;
+}
+
+@media screen and (max-width: 992px) {
+  .register-form {
+    width: 85%;
+  }
+}
+
+.scroll {
+  overflow: scroll;
+  height: 79vh;
+}
+
+.scroll-req {
+  overflow: scroll;
+  height: 68vh;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  position: relative;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+td {
+  opacity: 0.85;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+th {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 4;
+}
+
+.o-85 {
+  opacity: 0.85;
+}
