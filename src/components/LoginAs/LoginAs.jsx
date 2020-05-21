@@ -8,6 +8,7 @@ class LoginAs extends Component {
       user_role_name: "Government Official",
       password: "",
       invalidLogin: false,
+      buttonClicked: false,
     };
   }
 
@@ -30,6 +31,7 @@ class LoginAs extends Component {
   };
 
   onLogin = () => {
+    this.setState({ buttonClicked: true, invalidLogin: false });
     fetch("https://enigmatic-journey-77724.herokuapp.com/login", {
       method: "post",
       headers: { "Content-Type": "application/json" },
@@ -90,6 +92,11 @@ class LoginAs extends Component {
             />
           </div>
         </div>
+        {this.state.buttonClicked && !this.state.invalidLogin ? (
+          <code className="grey mt3">Loging In. Please Wait...</code>
+        ) : (
+          ""
+        )}
         {this.state.invalidLogin ? (
           <code className="red mt3">Invalid Password</code>
         ) : (
