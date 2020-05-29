@@ -63,6 +63,7 @@ class App extends Component {
             user={user}
             profileRoute={profileRoute}
             onProfileRouteChange={this.onProfileRouteChange}
+            loadUser={this.loadUser}
           />
         )}
       </div>

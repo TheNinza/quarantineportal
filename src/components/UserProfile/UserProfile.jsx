@@ -31,7 +31,7 @@ class UserProfile extends Component {
   };
 
   render() {
-    const { user, profileRoute, onProfileRouteChange } = this.props;
+    const { user, profileRoute, onProfileRouteChange, loadUser } = this.props;
     return (
       <div className="cf ph0-ns">
         <div className="fn fl-ns w-20-ns pr4-ns">
@@ -44,6 +44,7 @@ class UserProfile extends Component {
             <EditProfile
               user={user}
               onProfileRouteChange={onProfileRouteChange}
+              loadUser={loadUser}
             />
           ) : profileRoute === "manageCenters" ? (
             <ManageCenters

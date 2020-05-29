@@ -40,6 +40,8 @@ class EditProfile extends Component {
       .then((response) => response.json())
       .then((data) => {
         if (data.user_id) {
+          let newUser = Object.assign({}, this.props.user, data);
+          this.props.loadUser(newUser);
           this.setState({ updated: true });
         }
       })
