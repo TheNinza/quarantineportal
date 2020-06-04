@@ -41,7 +41,7 @@ const About = () => {
               </div>
             </div>
             <div className="pa2 mt2 mh2 shadow-3 br3 grow">
-              <div className="f3 fw6">Yahspal Parmar</div>
+              <div className="f3 fw6">Yashpal Parmar</div>
               <div className="f4 fw4">2019BCS-073</div>
               <div className="f5 fw4">
                 Created and formated the project report and tested the website
