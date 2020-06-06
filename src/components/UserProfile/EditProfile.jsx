@@ -43,6 +43,7 @@ class EditProfile extends Component {
           let newUser = Object.assign({}, this.props.user, data);
           this.props.loadUser(newUser);
           this.setState({ updated: true });
+          window.alert("Updated Successfully. Login again if the changes are not visible.");
         }
       })
       .catch((err) => console.log("error", err));
@@ -99,7 +100,7 @@ class EditProfile extends Component {
               <div>
                 <code className="tc red fw5">
                   {" "}
-                  {this.state.updated ? "Updated Successfully" : ""}
+                  {this.state.updated ? "Updated Successfully. Login again if the changes are not visible." : ""}
                 </code>
               </div>
               <div className="flex">
