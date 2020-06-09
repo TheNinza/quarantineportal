@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0ae51b989c05e94f58858c2fe204ce6",
+    "revision": "23a7bbd1799d2bfe7f2db101d5c0e4b8",
     "url": "/quarantineportal/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quarantineportal/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "af4ad8ac2046fece44e7",
-    "url": "/quarantineportal/static/css/main.5f8c44d5.chunk.css"
+    "revision": "8fbe5fa30c1bdefe3f4c",
+    "url": "/quarantineportal/static/css/main.e587285d.chunk.css"
   },
   {
     "revision": "ed3a0acb19a15eaa2ca8",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/quarantineportal/static/js/2.fa35535d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "af4ad8ac2046fece44e7",
-    "url": "/quarantineportal/static/js/main.782eac34.chunk.js"
+    "revision": "8fbe5fa30c1bdefe3f4c",
+    "url": "/quarantineportal/static/js/main.432a12eb.chunk.js"
   },
   {
     "revision": "9a620be0b7d92ac6056e",
