@@ -81,3 +81,24 @@ th {
 input {
   border-color: black;
 }
+
+.project {
+  transition: all 0.25s ease-out;
+  width: 50%;
+}
+
+.project:hover {
+  transform: rotate(3deg);
+}
+
+.project:hover .link-text {
+  background-color: rgba(255, 238, 0, 0.5);
+}
+
+.link-text {
+  color: black;
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 5px;
+  transition: all 0.25s ease-out;
+}

@@ -13,6 +13,14 @@ const About = () => {
             the data storage and NodeJS for the backend and React for the
             frontend. For more information, kindly refer to the project report.
           </div>
+          <div className="mv3 project">
+            <a
+              className="link-text"
+              href="https://github.com/TheNinza/quarantineportal/raw/master/DBS%20Project%20Report.pdf"
+            >
+              Click here to download the project report.
+            </a>
+          </div>
         </div>
         <div className="contributers pa2 mt2 mh2 shadow-3 br3 w-90">
           <div className="fw6 f2 tc"> Project Contributers </div>
