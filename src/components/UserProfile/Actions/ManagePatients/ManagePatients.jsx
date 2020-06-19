@@ -10,6 +10,10 @@ class ManagePatients extends Component {
     };
   }
 
+  shouldComponentUpdate(nextProps, nextState) {
+    return nextState.patients.length === this.state.patients.length;
+  }
+
   setCenterId = () => {
     fetch("https://enigmatic-journey-77724.herokuapp.com/getcenteruser", {
       method: "post",
